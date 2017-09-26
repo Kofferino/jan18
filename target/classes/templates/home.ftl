@@ -20,21 +20,20 @@
 
 <div class="parent">
     <div id="countdown">
-        <div id="wrapper">
-            <div class="form-inline">
-                <h1 id>99</h1><h1>:</h1><h1>99</h1><h1>:</h1><h1>99</h1><h1>:</h1><h1>99</h1><h1>:</h1><h1>99</h1><h1>:</h1><h1>99</h1>
-            </div>
+        <div id="wrapper" class="form-inline">
 
         </div>
     </div>
 </div>
-
+<input id="birthday-date" value="2017-01-08" class="hide">
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="/js/jquery-3.2.1.js"></script>
 <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="/js/moment-with-locales.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

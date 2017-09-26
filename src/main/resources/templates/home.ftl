@@ -20,12 +20,8 @@
 
 <div class="parent">
     <div id="countdown">
-        <div id="wrapper" class="form-inline">
-
-        </div>
     </div>
 </div>
-<input id="birthday-date" value="2017-01-08" class="hide">
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
