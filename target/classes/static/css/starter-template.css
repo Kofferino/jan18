@@ -1,7 +1,10 @@
-body {
-  padding-top: 50px;
+.parent{
+    width: 100%;
+    min-height: 100%;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
+
