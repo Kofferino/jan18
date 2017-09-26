@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 
     @RequestMapping("/")
-    public String home(Model model, @RequestParam(value = "name") String name){
-        model.addAttribute("name", name);
+    public String home(){
         return "home";
     }
 
