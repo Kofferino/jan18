@@ -1,7 +1,30 @@
-body {
-  padding-top: 50px;
+.parent{
+    width: 100%;
+    min-height: 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
+
+#countdown{
+    text-align: center;
+    order: 1;
+    background-color: #1e7e34;
+}
+
+
+#wrapper{
+    padding: 20px;
+    font-size: 7vw;
+}
+
+.hide{
+    display: none;
+}
+
