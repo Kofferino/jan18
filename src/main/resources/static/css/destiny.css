@@ -1,0 +1,54 @@
+.parent{
+    width: 100%;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(futura.tff);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Futura";
+}
+
+#countdown{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    left: 962px;
+    top:  345px;
+    width: 1680px;
+}
+
+h1{
+    font-size: 100px;
+    color: #fefcfe;
+    margin-bottom: -10px;
+}
+
+label{
+    color: #fefcfe;
+}
+
+#wrapper{
+    padding: 20px;
+    font-size: 7vw;
+}
+
+.hide{
+    display: none;
+}
+
+.covervid-wrapper {
+    z-index:  -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
